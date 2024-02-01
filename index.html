@@ -6,6 +6,12 @@
     <div class="container mt-5">
         <h1>Contact</h1>
         <form class="row g-3" action="https://formsubmit.co/22c9d3035ded6580cbdf5568566b7ee1" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!-- disable captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
             <div>
                 <label for="firstName" class="form-label">First Name</label>
                 <input type="text" class="form-control" name="name" id="firstName" required>
